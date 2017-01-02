@@ -255,7 +255,7 @@ body{
 }
 .time{
 	position: absolute;
-	bottom: 50px;
+	bottom: 40px;
 	right: 7px;
 	color: #fff;
 	background: rgba(85, 85, 85, 0.61);
@@ -557,7 +557,7 @@ body{
 
 ul.dc_pagination {
 	font: 12px 'Tahoma';
-	height: 100%;
+	height: 35px;
 	list-style-type: none;
 	overflow: hidden;
 	padding: 0px;
@@ -888,4 +888,23 @@ ul.dc_paginationA03 li a:hover, ul.dc_paginationA03 li a.current {
 	.view-links ul li img {
 		padding:0px 3px;
 	}
+}
+.views{
+    font-size: 0.86em;
+    font-family: 'Ropa Sans', sans-serif;
+    color: #BBBBBB;
+}
+.fullimg{
+	width:100%
+}
+
+.grid:hover{
+	line-height: 1em;
+-webkit-box-shadow: 0px 0px 20px 0px rgba(255,0,128,1);
+-moz-box-shadow: 0px 0px 20px 0px rgba(255,0,128,1);
+box-shadow: 0px 0px 20px 0px rgba(255,0,128,1);
+}
+
+.fullmain(){
+	width:94%
 }
